@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: aquamarine;
+}
+
+header {
+  margin: 10px;
+  text-align: center;
+}
+
+h1 h2 {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-content {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+.main-section {
+  background-color: cornsilk;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.box {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-size: 100px;
+}
+
+.box--pink {
+  background-color: brown;
+  color: darkslategrey;
+}
+
+button[type="button"] {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+}
+
+ul[role="list"] {
+  list-style: none;
+}
+a[href^="https"] {
+  color: rgb(162, 6, 240);
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+button:active {
+  background-color: tomato;
+}
+
+input:focus {
+  outline: 10px dotted tomato;
+  border: none;
+  border-radius: 10px;
+}
+
+.main-section:nth-child(5) {
+  background-color: darkmagenta;
+}
+
+a[href^="https"]::before {
+  content: "&&";
+  margin-right: 10px;
+}
+
+p::first-line {
+  font-size: 100px;
+}
+
+#very-important-text {
+  color: darkorange;
+}
+.main-section .text {
+  color: rgb(206, 24, 24);
+}
+/* Child combinator */
+.main-section > article {
+  padding: 10px;
+  border: dashed tomato;
+}
+/* adjascent siblings selecotr  */
+section div + span {
+  color: blue;
+}
