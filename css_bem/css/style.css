@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  /* color: darkgoldenrod; */
+}
+
+p {
+  color: blue;
+  font-size: 30px;
+}
+
+/* #title {
+    color: aquamarine;
+} */
+
+.title {
+  color: blueviolet;
+}
+
+h1 {
+  color: darkblue;
+}
+
+body {
+  color: darkorange;
+}
