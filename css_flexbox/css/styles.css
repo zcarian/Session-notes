@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav {
+  padding: 14px 20px;
+  background-color: #dbdbe4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #ee4c0b;
+}
+
+.menu {
+  font-size: 22px;
+  display: flex;
+  /* flex-direction: column ; */
+  justify-content: space-around;
+  height: 80vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu > li {
+  border: 4px white solid;
+}
