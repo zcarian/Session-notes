@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  background-color: aliceblue;
+  color: blueviolet;
+}
+
+ul {
+  font-size: 2rem;
+}
+
+li {
+  font-size: 1rem;
+}
+
+.square-big {
+  width: 40vw;
+  height: 50vh;
+  background-color: blue;
+}
+
+.square-small {
+  width: 40%;
+  height: 50%;
+  background-color: yellow;
+}
+
+@media screen and (min-width: 800px) {
+  * {
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  * {
+    background-color: red;
+  }
+}
