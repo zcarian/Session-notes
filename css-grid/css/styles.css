@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.bootcamp {
+  padding: 10px;
+}
+
+.bootcamp--1,
+.bootcamp--3,
+.bootcamp--5 {
+  background-color: aquamarine;
+}
+
+.bootcamp--2,
+.bootcamp--4 {
+  background-color: blueviolet;
+}
+
+.bootcamp-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bootcamp--1,
+.bootcamp--4 {
+}
