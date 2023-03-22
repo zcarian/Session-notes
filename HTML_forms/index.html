@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">Lorem ipsum, dolor sit</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut velit impedit
+      commodi maiores dolore quos animi repellendus architecto ratione cum
+      quidem, optio, aspernatur, ipsam cumque at rerum ullam nulla illo.
+    </p>
+    <form aria-labelledby="title" action="">
+      <fieldset>
+        <legend>Enter your name</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        <div>
+          <label for="select-guests">Who are you coming with</label>
+          <select name="friends-to-join" id="select-guests">
+            <option value="alone">I come alone</option>
+            <option value="with someoner">I'm not coming</option>
+            <option value="not coming">Maybe someone?</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <label for="drinks">Drinks</label>
+        <input type="radio" name="item" id="drinks" value="drinks" />
+        <label for="food">Food</label>
+        <input type="radio" name="item" id="food" value="food" />
+        <label for="sweets">Sweets</label>
+        <input type="radio" name="item" id="sweets" value="sweets" />
+      </fieldset>
+      <fieldset>
+        <label for="color">Select color</label>
+        <input type="color" name="color" id="color" />
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
